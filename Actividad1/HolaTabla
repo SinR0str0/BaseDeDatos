@@ -1,0 +1,7 @@
+-- Hernández Peña Angel Adrian 321188065
+-- 1. Crear una tabla
+CREATE TABLE alumnos (
+  idAlumno INTEGER PRIMARY KEY,
+  nombreAlumno TEXT NOT NULL,
+  genero TEXT NOT NULL
+);
