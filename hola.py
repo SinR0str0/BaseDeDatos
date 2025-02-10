@@ -46,6 +46,7 @@ def hakimi(conjunto):
     elif suma<0:
         return 0
     else:
+        #print("Comprobando: ", conjunto2)
         return hakimi(conjunto2)
     
 while(True):
@@ -67,5 +68,5 @@ else:
     elif resultado==-1:
         print("La sucesión ",conjunto," no tiene suficientes elementos para ser considerada.")
     else:
-        print("La sucesión no puede ser una gráfica simple pues el teorema no se cumple.")
+        print("La sucesión no puede ser una gráfica simple pues el teorema de Havel Hakimi no se cumple.")
     
